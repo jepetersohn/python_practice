@@ -1,9 +1,11 @@
 h1 {
   color: green;
 }
+
 h3, p {
   color: black;
 }
+
 h1 {
   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 50px;
@@ -12,11 +14,11 @@ h1 {
   font-weight: 500;
   line-height: 26.4px;
 }
+
 h3 {
   font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
   font-size: 24px;
   font-style: normal;
-  font-variant: normal;
   font-weight: 500;
   line-height: 15.4px;
 }
