@@ -1,0 +1,87 @@
+h1 {
+  color: green;
+}
+h3, p {
+  color: black;
+}
+h1 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 15.4px;
+}
+p {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+body {
+  background: #efefef;
+  color: #ffffff;
+}
+
+.navbar {
+  margin-bottom: 40px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.navbar-brand {
+  float: none;
+  height: auto;
+  padding: 0;
+}
+
+.navbar-brand img {
+  display: inline-block;
+}
+
+.panel {
+  background: #737d7b;
+  border-color: #636968;
+  box-shadow: 0 2px 2px #b3b3b3;
+}
+
+.panel-default .panel-heading {
+  background: #4d5453;
+  border-color: #636b69;
+}
+
+.panel-body {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.panel-title {
+  color: #ffffff;
+}

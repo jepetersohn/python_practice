@@ -1,0 +1,33 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="{% static 'bootstrap.min.css'%}" rel="stylesheet">
+    <link href="{% static 'style.css'%}" rel="stylesheet">
+    <title>AlienTracker</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top text-center">
+      <a href="/">
+        <center><img src="{% static 'images/ufo.jpg' %}"></center>
+      </a></nav>
+<main class="container" role="main">
+      <center><h1>AlienTracker</h1></center>
+      <center><h3>Known Aliens:</h3></center>
+  {% for alien in aliens %}
+      <p>Name: {{ alien.name }}</p>
+      <p>Diet: {{ alien.diet }}</p>
+      <p>Home planet: {{ alien.home_planet }}</p>
+    {% if alien.name == "Alf"%}
+        <center><img src="{% static 'images/alf.png'%}" alt="{{alien.name}}"></center>
+    {% elif alien.name == "E.T."%}
+        <center><img src="{% static 'images/et.jpg'%}" alt="{{alien.name}}"></center>
+    {% else %}
+        <center><img src="{% static 'images/superman.jpg'%}" alt="{{alien.name}}"></center>
+    {%endif%}
+  <hr>
+  {% endfor %}
+</main>
+  </body>
+</html>
